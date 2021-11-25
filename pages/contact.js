@@ -35,9 +35,12 @@ const Wrapper = styled.section`
     margin-bottom: 2rem;
   }
   p {
-    width: 40rem;
+    width: 80vw;
     margin: 0 auto;
+
     font-size: 1.4rem;
+    padding: 1rem;
+    max-width: 40rem;
   }
   .hello {
     font-size: 2rem;
