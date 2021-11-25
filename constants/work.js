@@ -3,7 +3,7 @@ const myWork = [
     id: 1,
     url: "https://ecomerce-portfolio.netlify.app/",
     img: "/assets/the-ecomerce.png",
-    desc: "E-coemrce project made with React and Context API.Also includes stripe as a payment processor and authentication with auth0. ",
+    desc: "E-coemrce project made with React and Context API. Also includes stripe as a payment processor and authentication with auth0. ",
     code: "https://github.com/josegr1998/eComercePortfolioProject",
   },
   {
