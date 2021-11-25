@@ -7,9 +7,9 @@ const Footer = () => {
     <Wrapper>
       <div className='footer-container'>
         <div className='links-container'>
-          {footerLinks.map((link) => {
+          {footerLinks.map((link, index) => {
             return (
-              <a href={link.src} target='_blank'>
+              <a href={link.src} target='_blank' rel='noreferrer' key={index}>
                 {link.icon}
               </a>
             );
