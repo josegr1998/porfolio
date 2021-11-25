@@ -28,8 +28,8 @@ const About = () => {
             Hello!, my name is Jose Raimondi, i love playing music and creating
             content. Something that web development shares with music, is
             creativity. <br />
-            Since my journey started, i have never stop learning and every day i
-            learn something new i cant help but feel extremely excited.
+            Since my journey started, i have never stopped learning and every
+            day i learn something new i cant help but feel extremely excited.
           </p>
           <p>Here are the main technologies i have been working with</p>
           <div className='icons-container'>
