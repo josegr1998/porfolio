@@ -20,6 +20,7 @@ export default function Home() {
             <h2>Web developer</h2>
             <div className='img-container'>
               <Image
+                alt='profile-img'
                 src='/assets/me.jfif'
                 layout='fill'
                 objectFit='cover'

@@ -27,13 +27,18 @@ const Work = () => {
                     rel='noreferrer'
                   >
                     <div className='img-container'>
-                      <Image src={work.img} objectFit='cover' layout='fill' />
+                      <Image
+                        src={work.img}
+                        objectFit='cover'
+                        layout='fill'
+                        alt='work-img'
+                      />
                     </div>
                     <p className='desc'>
                       {work.desc}
                       <br />
                       <a href={work.code} target='_blank' rel='noreferrer'>
-                        <span> Project's Code</span>
+                        <span> Project&apos;s Code</span>
                       </a>
                     </p>
                   </a>
