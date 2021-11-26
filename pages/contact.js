@@ -58,9 +58,9 @@ const Wrapper = styled.section`
     margin: 0 auto;
     border-radius: 1rem;
     color: var(--primary-100);
+    width: 80vw;
   }
   p {
-    width: 80vw;
     margin: 0 auto;
     font-size: 1.4rem;
     max-width: 40rem;

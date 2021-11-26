@@ -89,7 +89,8 @@ const Wrapper = styled.section`
   }
   .desc {
     background-color: var(--black-400);
-    width: 40rem;
+    max-width: 40rem;
+    width: 80vw;
     margin: 0 auto;
     border-radius: 1rem;
     color: var(--primary-100);
@@ -104,7 +105,6 @@ const Wrapper = styled.section`
   }
   p {
     padding: 1rem;
-    max-width: 40rem;
     font-size: 1.4rem;
     margin: 0 auto;
     padding-bottom: 2rem;
