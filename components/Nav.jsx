@@ -33,7 +33,11 @@ const Nav = () => {
 const Wrapper = styled.nav`
   height: 4rem;
   background: var(--black-500);
-
+  position: sticky;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 200;
   .nav-container {
     max-width: var(--max-width);
     margin: 0 auto;

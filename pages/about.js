@@ -24,14 +24,18 @@ const About = () => {
         <div className='page-container'>
           <h2>About Me</h2>
           <div className='underline'></div>
-          <p>
-            Hello!, my name is Jose Raimondi, i love playing music and creating
-            content. Something that web development shares with music, is
-            creativity. <br />
-            Since my journey started, i have never stopped learning and every
-            day i learn something new i cant help but feel extremely excited.
-          </p>
-          <p>Here are the main technologies i have been working with</p>
+          <div className='desc'>
+            <p>
+              Hello!, my name is Jose Raimondi, i love playing music and
+              creating content. Something that web development shares with
+              music, is creativity. <br />
+              Since my journey started, i have never stopped learning and every
+              day i learn something new i cant help but feel extremely excited.{" "}
+              <br />
+              <span>Main tech i have been working with</span>
+            </p>
+          </div>
+
           <div className='icons-container'>
             <h4>
               <FaReact className='icon' />
@@ -75,11 +79,27 @@ const About = () => {
 
 const Wrapper = styled.section`
   color: white;
-
+  .underline {
+    margin-bottom: 2rem;
+  }
   h2 {
     padding-top: 2rem;
     text-align: center;
     margin-bottom: 2rem;
+  }
+  .desc {
+    background-color: var(--black-400);
+    width: 40rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    span {
+      font-size: 1.5rem;
+      display: block;
+      text-align: center;
+      margin-top: 1rem;
+      color: var(--primary-100);
+      text-transform: capitalize;
+    }
   }
   p {
     padding: 1rem;
@@ -87,6 +107,15 @@ const Wrapper = styled.section`
     font-size: 1.4rem;
     margin: 0 auto;
     padding-bottom: 2rem;
+  }
+  .tech {
+    margin: 2rem auto;
+    text-align: center;
+    background-color: var(--black-400);
+    max-width: 40rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: var(--primary-100);
   }
   .icons-container {
     max-width: 60rem;
@@ -100,12 +129,14 @@ const Wrapper = styled.section`
       text-align: center;
       padding-bottom: 2rem; /*check in bigger screen */
     }
+
     .icon {
       font-size: 2rem;
       color: var(--primary-100);
       display: block;
       margin: 0 auto;
     }
+
     @media screen and (min-width: 400px) {
       display: grid;
       grid-template-columns: repeat(2, 1fr);

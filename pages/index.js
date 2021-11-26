@@ -73,11 +73,16 @@ const Wrapper = styled.section`
   p {
     max-width: 40rem;
     font-size: 1.4rem;
+    background: var(--black-400);
+    padding: 1rem;
+    border-radius: 1rem;
+    color: var(--primary-100);
   }
   span {
     font-size: 1.7rem;
     display: block;
     text-transform: capitalize;
     margin-bottom: 1rem;
+    color: white;
   }
 `;
