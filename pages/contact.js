@@ -41,6 +41,9 @@ const Contact = () => {
 
 const Wrapper = styled.section`
   color: white;
+  .page-container {
+    padding-bottom: 1rem;
+  }
   h1 {
     text-align: center;
     padding-top: 2rem;

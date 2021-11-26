@@ -92,15 +92,13 @@ const Wrapper = styled.section`
     max-width: 60rem;
     margin: 0 auto;
     margin-top: 2rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
 
     h4 {
       width: 200px;
       margin: 0 auto;
-      margin-bottom: 1rem;
       font-size: 1.7rem;
       text-align: center;
+      padding-bottom: 2rem; /*check in bigger screen */
     }
     .icon {
       font-size: 2rem;
@@ -108,6 +106,11 @@ const Wrapper = styled.section`
       display: block;
       margin: 0 auto;
     }
+    @media screen and (min-width: 400px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
     @media screen and (min-width: 768px) {
       .icons-container {
         display: grid;
