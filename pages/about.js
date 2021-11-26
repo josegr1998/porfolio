@@ -92,12 +92,12 @@ const Wrapper = styled.section`
     width: 40rem;
     margin: 0 auto;
     border-radius: 1rem;
-    span {
+    color:var(--primary-500) span {
       font-size: 1.5rem;
       display: block;
       text-align: center;
       margin-top: 1rem;
-      color: var(--primary-100);
+      color: white;
       text-transform: capitalize;
     }
   }
