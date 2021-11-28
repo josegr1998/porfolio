@@ -30,8 +30,8 @@ export default function Home() {
             <p>
               <span>from musician to developer</span>
               Wellcome to my Portfolio, ever since i started learning to code,
-              im allways hungry for more learning, please feel free to explore
-              my three best projects and also get to know a little about me!
+              im always hungry for more learning, please feel free to explore my
+              three best projects and also get to know a little about me!
             </p>
           </div>
         </div>
